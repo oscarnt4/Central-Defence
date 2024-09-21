@@ -3,15 +3,15 @@
 
 Central Defence is a tower defence-style game where the player must protect a central circular base from incoming projectiles. The player is represented by an object which rotates around the central base at a fixed speed. The player can switch the direction of rotation between clockwise and anticlockwise using the left and right arrow keys. The player may also modify their distance from the base by increasing or decreasing their radius of rotation with the up and down arrow keys. 
 
-Input	     ->      Action
+Input	     ->      Action:
 
-Left Arrow ← :	 ->  Change rotation direction to anticlockwise.
+Left Arrow ← 	 ->  Change rotation direction to anticlockwise.
 
-Right Arrow → :	 -> Change rotation direction to clockwise.
+Right Arrow → 	 -> Change rotation direction to clockwise.
 
-Up Arrow ↑ :	  ->   Increase the radius of rotation about the base.
+Up Arrow ↑ 	  ->   Increase the radius of rotation about the base.
 
-Down Arrow ↓ :	 ->  Decrease the radius of rotation about the base.
+Down Arrow ↓ 	 ->  Decrease the radius of rotation about the base.
 
 These inputs allow the player to traverse almost the entire game window (except for the corners) allowing the player to reach any projectile before it comes into contact with the base. They also limit the player by forcing them to only move in a rotating pattern and only at a specific speed.
 
@@ -21,7 +21,7 @@ The game is designed to be endless, with difficulty progressively increasing as 
 
 Once per level a powerup will spawn in place of a projectile. These powerups could be one of two types: a speed powerup or a size powerup. The size powerup increases the size of the player’s rotating object, making it easier to collide with and destroy incoming projectiles. The speed powerup boosts the player’s rotation speed, giving the player a better chance of reaching projectiles before they come into contact with the base. Powerups move slower, making it harder for the player to time their collection well as well as adding a layer of tactical decision-making for the best moment to collect them. Below is a key which shows the colours of all the game objects and what those colours mean:
 
-Object Colour	  ->  Object Type
+Object Colour	  ->  Object Type:
 
 White      ->       Base
 
