@@ -1,5 +1,10 @@
 # Central-Defence
- Advanced Game Development coursework
+
+2D Tower Defence game in C++
+
+ Explainer Video
+
+ [![Central Defence Explained](https://img.youtube.com/vi/7UC6AMXg7TQ/0.jpg)](https://www.youtube.com/watch?v=7UC6AMXg7TQ)
 
 Central Defence is a tower defence-style game where the player must protect a central circular base from incoming projectiles. The player is represented by an object which rotates around the central base at a fixed speed. The player can switch the direction of rotation between clockwise and anticlockwise using the left and right arrow keys. The player may also modify their distance from the base by increasing or decreasing their radius of rotation with the up and down arrow keys. 
 
